@@ -3,7 +3,7 @@
   width: 40%;
   height: 100%;
 
-  margin: 0 2.5em;
+  margin: 0 0 0 2.5em;
   padding: 1.5em;
   display: flex;
   flex-direction: column;
@@ -67,6 +67,10 @@ input {
 input[type='submit'] {
   background-color: #222d39;
   border-bottom: 4px solid turquoise;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background-color: #144274;
 }
 input:valid ~ label {
   top: 0;
