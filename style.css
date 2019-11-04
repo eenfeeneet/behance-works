@@ -32,3 +32,51 @@ h1 {
 
 	opacity: 0.5;
 }
+
+.myform {
+	background-color: #202635;
+	width: 40%;
+	height: 100%;
+
+	margin: 0 2.5em;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+}
+.myform-header {
+	flex-grow: 1;
+}
+.myform-nav {
+	flex-grow: 1;
+}
+.nav {
+	font-size: 1em;
+	text-decoration: none;
+	color: #424f59;
+
+	border-right: 2px dotted #424f59;
+	margin: 1em 1em;
+}
+.myform-input {
+	flex-grow: 4;
+	display: flex;
+	flex-direction: column;
+}
+.myform-inline {
+	flex-grow: 1;
+}
+input[type='text'],
+input[type='password'],
+input[type='submit'] {
+	padding: 0.5em;
+	font-size: 0.75em;
+}
+input[type='text'] {
+	width: 100%;
+}
+input[type='password'] {
+	width: 100%;
+}
+input[type='submit'] {
+	width: 100%;
+}
