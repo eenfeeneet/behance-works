@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #202635;
+}
+h1 {
+	color: aqua;
+}
+.card {
+}
